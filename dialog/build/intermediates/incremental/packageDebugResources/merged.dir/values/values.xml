@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr format="integer" name="pv_progressMode">
+        <enum name="determinate" value="0x00000000"/>
+        <enum name="indeterminate" value="0x00000001"/>
+        <enum name="buffer" value="0x00000002"/>
+        <enum name="query" value="0x00000003"/>
+    </attr>
+    <color name="dialog_bg">#ffffff</color>
+    <color name="dialog_bg_press">#f0f0f0</color>
+    <color name="dialog_cancel">#f44336</color>
+    <color name="dialog_confirm">#007aff</color>
+    <color name="dialog_line">#2c000000</color>
+    <dimen name="dialog_line_size">1px</dimen>
+    <dimen name="dialog_menu_item_height">46dp</dimen>
+    <dimen name="dialog_menu_round_size">12dp</dimen>
+    <dimen name="dialog_message_round_size">15dp</dimen>
+    <dimen name="dialog_message_width">260dp</dimen>
+    <string name="dialog_address_title">选择地区</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_date_day">日</string>
+    <string name="dialog_date_month">月</string>
+    <string name="dialog_date_year">年</string>
+    <string name="dialog_pay_title">请输入支付密码</string>
+    <string name="dialog_select_hint">请选择</string>
+    <style name="CircularProgress">
+        <item name="cpd_padding">7dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">2dp</item>
+        <item name="cpd_strokeColor">#fff</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">1000</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">indeterminate</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+    <declare-styleable name="CircularProgressDrawable" ns1:ignore="ResourceName">
+        <attr format="reference|dimension" name="cpd_padding"/>
+        <attr format="reference|integer" name="cpd_initialAngle"/>
+        <attr format="reference|integer" name="cpd_maxSweepAngle"/>
+        <attr format="reference|integer" name="cpd_minSweepAngle"/>
+        <attr format="reference|dimension" name="cpd_strokeSize"/>
+        <attr format="reference|color" name="cpd_strokeColor"/>
+        <attr format="reference|color" name="cpd_strokeSecondaryColor"/>
+        <attr format="reference" name="cpd_strokeColors"/>
+        <attr format="boolean" name="cpd_reverse"/>
+        <attr format="reference|integer" name="cpd_rotateDuration"/>
+        <attr format="reference|integer" name="cpd_transformDuration"/>
+        <attr format="reference|integer" name="cpd_keepDuration"/>
+        <attr format="reference" name="cpd_transformInterpolator"/>
+        <attr format="reference|integer" name="cpd_inAnimDuration"/>
+        <attr format="reference|integer" name="cpd_outAnimDuration"/>
+        <attr format="reference" name="cpd_inStepColors"/>
+        <attr format="float" name="cpd_inStepPercent"/>
+        <attr name="pv_progressMode"/>
+    </declare-styleable>
+    <declare-styleable name="LoopView" ns1:ignore="ResourceName">
+        <attr format="color" name="lv_lineColor"/>
+        <attr format="color" name="lv_topBottomTextColor"/>
+        <attr format="color" name="lv_centerTextColor"/>
+        <attr format="dimension" name="lv_textSize"/>
+        <attr format="boolean" name="lv_canLoop"/>
+        <attr format="integer" name="lv_initPosition"/>
+        <attr format="integer" name="lv_drawItemCount"/>
+    </declare-styleable>
+</resources>

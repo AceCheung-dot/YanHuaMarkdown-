@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:clickable="true"
+    android:paddingBottom="1dp"
+    app:ios="false"
+    app:leftSwipe="true"
+    app:swipeEnable="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/avatar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/dividerTop"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginTop="41dp"
+            android:background="@mipmap/ic_launcher_round"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundAsCircle="true"
+            fresco:roundWithOverlayColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/avatar"
+            android:layout_marginStart="10dp"
+
+
+            android:layout_marginRight="18dp"
+            android:layout_toStartOf="@+id/text_date"
+            android:layout_toLeftOf="@+id/text_date"
+            android:layout_toEndOf="@+id/avatar"
+            android:text="Carol Bell"
+            android:textColor="#827f93"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_job_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/text_name"
+            android:layout_below="@+id/text_name"
+            android:layout_marginBottom="10dp"
+            android:text="Graphic Designer"
+            android:textColor="#827f93" />
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dividerTop"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="26dp"
+            android:text="Nov 20, 6:12 PM"
+            android:textColor="#827f93" />
+
+        <TextView
+            android:id="@+id/filter_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatar"
+            android:layout_marginLeft="16dp"
+            android:padding="10dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/filter_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/filter_first"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/filter_first"
+            android:padding="10dp"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/text_question"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ebebeb" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/view_likes"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/divider"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_heart"
+            android:tint="#827f93" />
+
+        <TextView
+            android:id="@+id/text_likes_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/view_likes"
+            android:layout_margin="4dp"
+            android:layout_toEndOf="@+id/view_likes"
+            android:text="24"
+            android:textColor="#827f93"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/view_chat"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/divider"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_chat"
+            android:tint="#827f93" />
+
+        <TextView
+            android:id="@+id/text_chat_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/view_chat"
+            android:layout_margin="4dp"
+            android:layout_toEndOf="@+id/view_chat"
+            android:text="20 responses"
+            android:textColor="#827f93"
+            android:textSize="12sp" />
+
+        <android.widget.ImageView
+            android:id="@+id/view_settings"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/divider"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_logo"
+            android:tint="#827f93" />
+
+        <TextView
+            android:id="@+id/text_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/filter_first"
+            android:layout_margin="16dp"
+            android:text="What is the first step to transform an idea into an actual project?"
+            android:textColor="#827f93" />
+
+    </RelativeLayout>
+
+
+    <!-- 以下都是侧滑菜单的内容依序排列 -->
+    <Button
+        android:id="@+id/btnTop"
+        android:layout_width="60dp"
+        android:layout_height="200dp"
+        android:background="#d9dee4"
+        android:text="置顶"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnUnRead"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:background="#ecd50a"
+        android:clickable="true"
+        android:text="标记未读"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="60dp"
+        android:layout_height="200dp"
+        android:background="#aaaaaa"
+        android:text="删除"
+        android:textColor="@android:color/white"/>
+
+
+    <!--    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/red_ff4a57"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/point_icon_delete"
+                android:gravity="center"
+                android:text="删除"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>-->
+
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>

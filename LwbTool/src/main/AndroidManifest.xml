@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="blcs.lwb.lwbtool">
+
+    <!-- 自动安装apk -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 应用大小获取 -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" /> <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application android:networkSecurityConfig="@xml/network_security_config">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider> <!-- 全局异常捕获 -->
+        <activity
+            android:name=".utils.crash.DefaultErrorActivity"
+            android:process=":error_activity" />
+
+        <provider
+            android:name=".utils.crash.CaocInitProvider"
+            android:authorities="${applicationId}.customactivityoncrashinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+    </application>
+
+</manifest>

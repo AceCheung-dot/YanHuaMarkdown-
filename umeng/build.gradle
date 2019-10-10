@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    resourcePrefix "umeng_"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        // 混淆配置
+        consumerProguardFiles 'proguard-umeng.pro'
+    }
+}
+
+dependencies {
+    // 依赖 libs 目录下所有 Jar 包
+    implementation files('libs/umeng-common-2.0.2.jar')
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation files('libs/umeng-share-core-6.9.4.jar')
+    implementation files('libs/umeng-shareboard-widget-6.9.4.jar')
+    implementation files('libs/umeng-share-sina-simplify-6.9.4.jar')
+    implementation files('libs/umeng-share-wechat-simplify-6.9.4.jar')
+    implementation files('libs/umeng-share-QQ-simplify-6.9.4.jar')
+    implementation files('libs/umeng-sharetool-6.9.4.jar')
+    implementation files('libs/umeng-analytics-8.0.2.jar')
+    //PushSDK必须依赖基础组件库，所以需要加入对应依赖
+//PushSDK必须依赖utdid库，所以需要加入对应依赖
+    implementation 'com.umeng.umsdk:utdid:1.1.5.3'
+//PushSDK
+    implementation 'com.umeng.sdk:push:4.2.0'
+
+
+}

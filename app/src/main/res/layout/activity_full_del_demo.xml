@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <include layout="@layout/include_toolbar"
+            />
+<bob.eve.walle.ui.widget.SwipeBackLayout
+    android:layout_marginTop="58dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#efefef" />
+
+
+</bob.eve.walle.ui.widget.SwipeBackLayout>
+
+<com.getbase.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fab_fu_add_task"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    app:backgroundTint="#f8bbd0"
+    app:elevation="5dp"
+    app:rippleColor="#ff4081"
+    app:fabSize="normal"
+    android:src="@drawable/add"/>
+
+
+</RelativeLayout>

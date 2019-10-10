@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_bg_1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:ems="12"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv_bar_qr"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="18dp"
+        android:text="长按可识别二维码"/>
+
+    <EditText
+        android:id="@+id/et_bar_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/editext_radius"
+        android:gravity="center"
+        android:hint="请输入要转换的字符串"
+        android:padding="12dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_QrCode"
+            style="@style/Button_standard"
+            android:layout_marginRight="18dp"
+            android:text="生成二维码"
+            app:layout_constraintLeft_toLeftOf="@+id/btn_scan_code"
+            app:layout_constraintRight_toRightOf="@+id/btn_scan_code"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_barCode"
+            style="@style/Button_standard"
+            android:text="生成条形码"
+            app:layout_constraintLeft_toLeftOf="@+id/btn_custom_qrCode"
+            app:layout_constraintRight_toRightOf="@+id/btn_custom_qrCode"
+            app:layout_constraintTop_toTopOf="@+id/btn_QrCode" />
+
+        <Button
+            android:id="@+id/btn_custom_qrCode"
+            style="@style/Button_standard"
+            android:layout_marginTop="18dp"
+            android:text="带logo的二维码"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_QrCode" />
+
+        <Button
+            android:id="@+id/btn_scan_code"
+            style="@style/Button_standard"
+            android:layout_marginLeft="18dp"
+            android:text="扫描二维码/条形码"
+            app:layout_constraintLeft_toRightOf="@+id/btn_custom_qrCode"
+            app:layout_constraintTop_toTopOf="@+id/btn_custom_qrCode" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

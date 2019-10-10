@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res"/><source path="C:\Users\AceZhang\Desktop\Eve-master\widget\build\generated\res\rs\debug"/><source path="C:\Users\AceZhang\Desktop\Eve-master\widget\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res"><file name="widget_bg_settting_bar_selector" path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res\drawable\widget_bg_settting_bar_selector.xml" qualifiers="" type="drawable"/><file name="widget_hint_layout" path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res\layout\widget_hint_layout.xml" qualifiers="" type="layout"/><file name="widget_setting_bar" path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res\layout\widget_setting_bar.xml" qualifiers="" type="layout"/><file name="widget_input_delete" path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res\mipmap-hdpi\widget_input_delete.png" qualifiers="hdpi-v4" type="mipmap"/><file name="widget_input_delete" path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res\mipmap-xhdpi\widget_input_delete.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="widget_input_delete" path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res\mipmap-xxhdpi\widget_input_delete.png" qualifiers="xxhdpi-v4" type="mipmap"/><file path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="SwitchButton" ns1:ignore="ResourceName">
+        
+        <attr name="android:checked"/>
+        
+        <attr name="android:enabled"/>
+    </declare-styleable><declare-styleable name="SettingBar" ns1:ignore="ResourceName">
+        
+        <attr format="string" name="bar_leftText"/>
+        <attr format="string" name="bar_leftHint"/>
+        <attr format="reference" name="bar_leftIcon"/>
+        <attr format="color" name="bar_leftColor"/>
+        <attr format="dimension" name="bar_leftSize"/>
+        
+        <attr format="string" name="bar_rightText"/>
+        <attr format="string" name="bar_rightHint"/>
+        <attr format="reference" name="bar_rightIcon"/>
+        <attr format="color" name="bar_rightColor"/>
+        <attr format="dimension" name="bar_rightSize"/>
+        
+        <attr format="boolean" name="bar_lineVisible"/>
+        <attr format="reference|color" name="bar_lineColor"/>
+        <attr format="dimension" name="bar_lineSize"/>
+        <attr format="dimension" name="bar_lineMargin"/>
+    </declare-styleable><declare-styleable name="NumberProgressBar" ns1:ignore="ResourceName">
+        <attr format="integer" name="pb_progress"/>
+        <attr format="integer" name="pb_maxProgress"/>
+
+        <attr format="dimension" name="pb_textSize"/>
+        <attr format="color" name="pb_textColor"/>
+
+        <attr format="dimension" name="pb_textOffset"/>
+
+        <attr format="color" name="pb_unreachedColor"/>
+        <attr format="color" name="pb_reachedColor"/>
+
+        <attr format="dimension" name="pb_reachedHeight"/>
+        <attr format="dimension" name="pb_unreachedHeight"/>
+
+    </declare-styleable></file><file path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\main\res\values\colors.xml" qualifiers=""><color name="widget_settingBarSelectorColor">#0c000000</color><color name="widget_settingBarBackgroundColor">#FFFFFFFF</color></file></source><source path="C:\Users\AceZhang\Desktop\Eve-master\widget\build\generated\res\rs\debug"/><source path="C:\Users\AceZhang\Desktop\Eve-master\widget\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\AceZhang\Desktop\Eve-master\widget\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SettingBar" ns1:ignore="ResourceName">
+        
+        <attr format="string" name="bar_leftText"/>
+        <attr format="string" name="bar_leftHint"/>
+        <attr format="reference" name="bar_leftIcon"/>
+        <attr format="color" name="bar_leftColor"/>
+        <attr format="dimension" name="bar_leftSize"/>
+        
+        <attr format="string" name="bar_rightText"/>
+        <attr format="string" name="bar_rightHint"/>
+        <attr format="reference" name="bar_rightIcon"/>
+        <attr format="color" name="bar_rightColor"/>
+        <attr format="dimension" name="bar_rightSize"/>
+        
+        <attr format="boolean" name="bar_lineVisible"/>
+        <attr format="reference|color" name="bar_lineColor"/>
+        <attr format="dimension" name="bar_lineSize"/>
+        <attr format="dimension" name="bar_lineMargin"/>
+    </declare-styleable><declare-styleable name="NumberProgressBar" ns1:ignore="ResourceName">
+        <attr format="integer" name="pb_progress"/>
+        <attr format="integer" name="pb_maxProgress"/>
+
+        <attr format="dimension" name="pb_textSize"/>
+        <attr format="color" name="pb_textColor"/>
+
+        <attr format="dimension" name="pb_textOffset"/>
+
+        <attr format="color" name="pb_unreachedColor"/>
+        <attr format="color" name="pb_reachedColor"/>
+
+        <attr format="dimension" name="pb_reachedHeight"/>
+        <attr format="dimension" name="pb_unreachedHeight"/>
+
+    </declare-styleable><declare-styleable name="SwitchButton" ns1:ignore="ResourceName">
+        
+        <attr name="android:checked"/>
+        
+        <attr name="android:enabled"/>
+    </declare-styleable></configuration></mergedItems></merger>

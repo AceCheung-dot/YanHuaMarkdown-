@@ -1,0 +1,310 @@
+<resources>
+    <string name="app_name">EveHttp</string>
+
+    <string name="action_fav">收藏</string>
+    <string name="action_share">分享</string>
+    <string name="action_save">保存</string>
+    <string name="action_copy">复制</string>
+    <string name="action_search">搜索</string>
+    <string name="pm25_message">pm2.5</string>
+    <string name="pm25_value">110</string>
+    <string name="pm25_source_message">from Aqicn.org</string>
+    <string name="normal_setting_message">常规</string>
+    <string name="setting_cache">自动缓存</string>
+    <string name="setting_image">无图模式</string>
+    <string name="setting_wifi_image">WIFI自动加载图片</string>
+    <string name="setting_night">夜间模式</string>
+    <string name="other_setting_message">其他</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_clear">清除缓存</string>
+    <string name="setting_update">检查更新</string>
+    <string name="version">当前版本号：v1.0.1</string>
+    <string name="feedback_email_message">感谢你的意见</string>
+    <string name="cur_version">当前版本号 v%s</string>
+    <string name="filepath"></string>
+
+
+    <string name="popup_text">哪里不会点哪里</string>
+
+    <string name="not_interest">不感兴趣</string>
+
+
+    <!-- 提示 -->
+    <string name="hint_layout_no_data">亲，暂无数据</string>
+    <string name="hint_layout_error_request">亲，请求出错了</string>
+    <string name="hint_layout_error_network">亲，没有网络了</string>
+
+    <!-- 主页 -->
+    <string name="home_exit_hint">再按一次退出</string>
+    <string name="home_nav_index">首页</string>
+    <string name="home_nav_found">发现</string>
+    <string name="home_nav_message">消息</string>
+    <string name="home_nav_me">我的</string>
+
+    <!-- 登录 -->
+    <string name="login_register">注册</string>
+    <string name="login_phone_hint">请输入手机号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_forget">忘记密码？</string>
+    <string name="login_text">登录</string>
+
+    <string name="login_other">其他登录方式</string>
+
+    <!-- 注册 -->
+    <string name="register_title">注册</string>
+    <string name="register_hint">手机号仅用于登录和保护账号安全</string>
+    <string name="register_login">登录</string>
+    <string name="register_password_hint1">设置密码</string>
+    <string name="register_password_hint2">再次输入密码</string>
+    <string name="register_password_input_error">两次密码输入不一致，请重新输入</string>
+
+    <!-- 设置 -->
+    <string name="setting_title">设置</string>
+
+    <string name="setting_language">语言切换</string>
+    <string name="setting_language_simple">简体中文</string>
+    <string name="setting_language_complex">繁体中文</string>
+
+
+    <string name="setting_auto">自动登录</string>
+    <string name="setting_agreement">隐私协议</string>
+    <string name="setting_about">关于我们</string>
+    <string name="setting_exit">退出登录</string>
+
+    <!-- 关于 -->
+    <string name="about_title">关于我们</string>
+    <string name="about_copyright">Copyright © 2019</string>
+
+    <!-- 忘记密码 -->
+    <string name="password_forget_title">忘记密码</string>
+
+    <!-- 重置密码 -->
+    <string name="password_reset_title">设置登录密码</string>
+    <string name="password_reset_phone_hint1">设置6&#8211;18位登录密码</string>
+    <string name="password_reset_phone_hint2">重新输入一次密码</string>
+    <string name="password_reset_input_error">两次密码输入不一致，请重新输入</string>
+
+    <!-- 升级对话框 -->
+    <string name="dialog_update_button">升级</string>
+
+    <string name="dialog_update_download_fail">启动下载失败</string>
+    <string name="dialog_update_permission_hint">必须先要授予权限才能正常下载更新哦</string>
+
+    <string name="dialog_update_status_running">下载中</string>
+    <string name="dialog_update_status_successful">立即安装</string>
+    <string name="dialog_update_status_failed">下载失败</string>
+    <string name="dialog_update_status_paused">暂停中</string>
+    <string name="dialog_update_status_pending">等待下载</string>
+
+    <!-- 分享对话框 -->
+    <string name="dialog_share_platform_wx">微信</string>
+    <string name="dialog_share_platform_wx_pyq">朋友圈</string>
+    <string name="dialog_share_platform_qq">QQ</string>
+    <string name="dialog_share_platform_qq_kj">QQ空间</string>
+
+    <!-- 校验手机号 -->
+    <string name="phone_verify_title">手机号验证</string>
+    <string name="phone_verify_current_phone">当前手机号：%s</string>
+
+    <!-- 修改手机号 -->
+    <string name="phone_reset_title">修改手机号</string>
+    <string name="phone_reset_change_hint">下次登录请使用更换后的新手机号登录</string>
+    <string name="phone_reset_commit">立即绑定</string>
+
+    <string name="phone_reset_commit_succeed">绑定成功，下次登录请使用新手机号登录</string>
+
+    <!-- 个人资料 -->
+    <string name="personal_data_title">个人资料</string>
+    <string name="personal_data_head">头像</string>
+
+    <string name="personal_data_id">用户ID</string>
+    <string name="personal_data_name">昵称</string>
+    <string name="personal_data_name_hint">设置昵称</string>
+
+    <string name="personal_data_address">地区</string>
+    <string name="personal_data_address_hint">请选择</string>
+
+    <string name="personal_data_phone">手机号码</string>
+    <string name="personal_data_phone_hint">立即绑定</string>
+
+    <!-- 浏览器 -->
+    <string name="web_title">加载中&#8230;</string>
+    <string name="app_name">常用工具类</string>
+    <string name="Title">常用工具类</string>
+    <!--首页-->
+    <string name="Tool">工具</string>
+    <string name="View">View</string>
+    <string name="Other">其他</string>
+    <string name="Resources">资源</string>
+    <string name="WeChatStorageActivity">存储空间</string>
+    <!--发现-->
+    <string name="Monments">朋友圈</string>
+    <string name="Scan">扫一扫</string>
+    <string name="Shake">摇一摇</string>
+    <string name="Top_Stories">看一看</string>
+    <string name="Search">搜一搜</string>
+    <string name="People_Nearby">附近的人</string>
+    <string name="Message_in_a_Bottle">漂流瓶</string>
+    <string name="Shopping">购物</string>
+    <string name="Games">游戏</string>
+    <string name="Mini_Programs">小程序</string>
+
+    <string name="app_Title">常用工具类</string>
+    <string name="Util">常用工具类</string>
+    <string name="input_str">请输入任意字符串</string>
+    <string name="delete_trim">去掉前后空格</string>
+    <string name="getStr">获取处理后的字符串：</string>
+    <string name="getTrimStr">获取去掉前后空格后的字符串：</string>
+    <string name="getNoBlanStr">获取去掉所有空格后的字符串：</string>
+    <string name="getLengthStr">获取字符串的长度：</string>
+    <string name="IsNotEmptyStr">判断字符是否非空：</string>
+    <string name="IsPhoneStr">判断手机格式是否正确：</string>
+    <string name="IsEmailStr">判断Email格式是否正确：</string>
+    <string name="IsNumerStr">判断是否全是数字：</string>
+    <string name="IsNumberOrAlpha">判断字符类型是否是号码或字母：</string>
+    <string name="isIDCard">判断字符类型是否是身份证号：</string>
+    <string name="isUrl">判断字符类型是否是网址：</string>
+    <string name="isFilePathExist">判断文件路径是否存在：</string>
+    <string name="getNumber">去掉str内所有非数字类型字符：</string>
+    <string name="getCorrectUrl">自动补全网址：</string>
+    <string name="getCorrectPhone">去掉所有空格 、"-" 、"+86" 后的phone：</string>
+    <string name="getCorrectEmail">自动补全邮箱：</string>
+    <string name="getPrice">获取价格，保留两位小数：</string>
+    <string name="stringToDouble">字符串转换成double,失败返回0：</string>
+    <string name="stringToInt">字符串转换成整数,失败返回0：</string>
+    <string name="showKeyboard">显示键盘</string>
+    <string name="hideKeyboard">隐藏键盘</string>
+    <string name="hideShowKeyboard">隐藏/显示键盘</string>
+    <string name="judgeInvalidCode">判断验证码是否合法</string>
+    <string name="judgeInvalidPassword">判断密码是否合法</string>
+    <string name="judgeInvalidPhone">判断手机号码是否合法</string>
+    <string name="judgeInvalidEmail">判断邮箱是否合法</string>
+    <string name="input_code">请输入验证码</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="input_Email">请输入邮箱</string>
+    <string name="startNewActivity">打开新的Activity</string>
+    <string name="whether_open_Animation">是否开启动画</string>
+    <string name="whether_RequestCode">是否带请求码</string>
+    <string name="input_args">请输入参数</string>
+    <string name="getChannel">获取渠道名:</string>
+    <string name="installAPK">启动安装应用程序</string>
+    <string name="input_path">请输入Apk路径</string>
+    <string name="getApplicationIcon">获取应用程序的Icon图标:</string>
+    <string name="getInstalledPackages">获取所有安装的应用程序:</string>
+    <string name="getVersionCode">获取版本号:</string>
+    <string name="getVersionName">获取应用版本名称:</string>
+    <string name="getPackage">获取应用包名：</string>
+    <string name="getScreenWidth">获取屏幕宽度：</string>
+    <string name="getScreenHeight">获取屏幕高度：</string>
+    <string name="getDensity">获取系统dp尺寸密度值：</string>
+    <string name="getScaledDensity">获取系统字体sp密度值：</string>
+    <string name="getStatusHeight">获得状态栏的高度：</string>
+    <string name="getSnapShotWithStatusBar">获取当前屏幕截图,包含状态栏：</string>
+    <string name="getSnapShotWithoutStatusBar">获取当前屏幕截图,不包含状态栏：</string>
+    <string name="getDisplayMetrics">获取DisplayMetrics对象：</string>
+    <string name="getScreenSize">获取屏幕像素点：</string>
+    <string name="getStatusBarHeight">获取状态栏的高度：</string>
+    <string name="b2d">Bitmap转化为Drawable</string>
+    <string name="d2b">Drawable转化为Bitmap</string>
+    <string name="getBitmapFromResources">获得Resources的Bitmap资源</string>
+    <string name="byte2Bimap">byte[]字节码转为Bitmap</string>
+    <string name="Bimap2byte">Bitmap转为字节码byte[]</string>
+    <string name="input_filepath">请输入图片路径</string>
+    <string name="input_width">设置宽度</string>
+    <string name="input_height">设置高度</string>
+    <string name="getBitmapFromPath">根据文件路径获取指定大小的Bitmap对象</string>
+    <string name="compressImageFromFile">压缩图片</string>
+    <string name="zoomImg">缩放/裁剪图片</string>
+    <string name="getBitmapFromResource">根据资源id获取指定大小的Bitmap对象</string>
+    <string name="getThumbnailsBitmap">获取指定大小的Bitmap对象</string>
+    <string name="fileNoExit">未发现该文件</string>
+    <string name="error_toast">错误的提示</string>
+    <string name="success_toast">成功的提示</string>
+    <string name="info_toast">信息的提示</string>
+    <string name="warning_toast">警告的提示</string>
+    <string name="normal_toast">普通的提示（没有ICON）</string>
+    <string name="normal_toast_img">普通的提示（有ICON）</string>
+    <string name="sys_toast">系统的提示</string>
+    <string name="BottomNavigation_Recommend">BottomNavigation介绍</string>
+    <string name="function_unopen">功能暂未开放</string>
+    <string name="whether_remove_animation">是否去除动画</string>
+    <string name="addView">添加Item</string>
+    <string name="reduceView">移除Item</string>
+    <string name="addImte">动态添加Item：</string>
+    <string name="changeOrientation">水平垂直切换</string>
+    <string name="table_Layout">表格布局</string>
+    <string name="WaterFall_View">瀑布流布局</string>
+    <string name="click_crash">点击异常效果演示</string>
+    <string name="DrawerLayout">侧滑菜单</string>
+    <string name="scrollable_tab">scrollable tab</string>
+    <string name="fixed_tab">fixed tab</string>
+    <string name="dynamic_tab">dynamic tab</string>
+    <string name="no_tab_only_indicator">no tab, only indicator</string>
+    <string name="work_with_fragment_container">work with fragment container</string>
+    <string name="tab_with_badge_view">tab with badge view</string>
+    <string name="custom_navigator">custom navigator</string>
+    <string name="tab_with_custom_layout">load custom layout</string>
+    <string name="WeChatFunction">仿微信功能及控件</string>
+    <string name="SplashActivity">欢迎界面</string>
+    <string name="FontSizeActivity">字体大小</string>
+    <string name="save">保存</string>
+    <string name="Multi_Language">多语言</string>
+
+
+    <!--博客-->
+    <string name="URL_study03">https://www.jianshu.com/p/e9996296a982</string>
+    <string name="URL_study02">https://www.jianshu.com/p/5ac84e8497b5</string>
+    <string name="URL_study01">https://www.jianshu.com/p/967bfa0234f9</string>
+    <string name="URL_LinDownloadAPk">https://www.jianshu.com/p/3e5af8827157</string>
+    <string name="URL_LinNotify">https://www.jianshu.com/p/bc2917c3bca8</string>
+    <string name="URL_LinCustomDialog">https://www.jianshu.com/p/ee84b1c2a325</string>
+    <string name="URL_AppSizeUtils">https://www.jianshu.com/p/d97c0de8bc18</string>
+    <string name="URL_MultiLanguage">https://www.jianshu.com/p/0f957ead4fa0</string>
+    <string name="URL_FontSize">https://www.jianshu.com/p/f13b08da22d1</string>
+    <string name="URL_JUnit">https://www.jianshu.com/p/762890234f82</string>
+    <string name="URL_DataBinding">https://www.jianshu.com/p/7de37ca38d0e</string>
+    <string name="URL_BottomNavigation">https://www.jianshu.com/p/5993e8037d4d</string>
+    <string name="URL_LOG">https://www.jianshu.com/p/f947d6e77fd1</string>
+    <string name="URL_UmengPackage">https://www.jianshu.com/p/bb09d8e18782</string>
+    <string name="URL_Umeng">https://www.jianshu.com/p/d93767c806e3</string>
+    <string name="URL_Retrofit2">https://www.jianshu.com/p/cb2c375c9105</string>
+    <string name="URL_Retrofit1">https://www.jianshu.com/p/81149c0babd1</string>
+    <string name="URL_WebView">https://www.jianshu.com/p/3dc06c3dfb7d</string>
+    <string name="URL_APK_Sign">https://blog.csdn.net/cs_lwb/article/details/81386595</string>
+    <string name="URL_Arithmetic">https://www.jianshu.com/p/a43bd0f44f65</string>
+    <string name="URL_DesignMode">https://www.jianshu.com/p/c4c550b8d849</string>
+    <!-->>>>>>>>>>>>博客-->
+    <string name="whetherConnectWifi">是否连接WIFI </string>
+    <string name="whetherConnectMobileNewWork">是否连接移动网络</string>
+    <string name="whetherConnectNetWork">是否有网络连接</string>
+    <string name="toNetWorkSetting">打开网络设置界面</string>
+    <string name="getNetWorkStatus">获取网络状态</string>
+    <string name="getDeviceInfo">获取设备信息</string>
+    <string name="getAllCatchData">获取所有的缓存数据</string>
+    <string name="cleanAllCache">清除所有缓存</string>
+    <string name="cleanAppInternalCache">清除本应用内部缓存</string>
+    <string name="cleanAppAllData">清除本应用全部数据库</string>
+    <string name="cleanAppSp">清除本应用SharedPreference</string>
+    <string name="quareCleanAppData">按名字清除本应用数据库</string>
+    <string name="data_data_com_xxx_xxx_files">cleanFilesContent</string>
+    <string name="cleanExternalCacheContent">清除外部cache下的内容</string>
+    <string name="cleanCustomFile">清除自己定义路径下的文件</string>
+    <string name="cleanAllData">清除本应用全部的数据</string>
+    <string name="QMUI_Android">https://qmuiteam.com/android</string>
+
+
+    <!-- 资源链接 -->
+    <string name="Url_NDK">https://developer.android.google.cn/ndk/</string>
+    <string name="Url_Java">https://snailclimb.top/JavaGuide/#/</string>
+    <string name="Url_Android_ui">https://github.com/wasabeef/awesome-android-ui</string>
+    <string name="Url_open_android">https://github.com/open-android/Android</string>
+    <string name="Url_programming_book">https://github.com/justjavac/free-programming-books-zh_CN</string>
+    <string name="Url_open_project">https://github.com/Trinea/android-open-project</string>
+    <string name="Url_qq_course">https://ke.qq.com/course/list?mt=1001&amp;st=2003&amp;tt=3021&amp;price_min=0&amp;price_max=0</string>
+    <string name="Url_jikexueyuan">http://wiki.jikexueyuan.com/list/android/</string>
+    <string name="Url_imooc">https://coding.imooc.com/?c=android</string>
+    <string name="Url_android_training">http://hukai.me/android-training-course-in-chinese/index.html</string>
+    <!-- 资源链接 -->
+
+</resources>

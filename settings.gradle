@@ -1,0 +1,1 @@
+include ':app', ':everepository', ':evelib', ':evemvp', ':library', ':calendarview', ':kotlin', ':rule-view', ':base', ':dialog', ':image', ':umeng', ':widget', ':filter', ':swipemenulib', ':LwbTool'
